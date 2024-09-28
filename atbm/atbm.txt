@@ -1,0 +1,28 @@
+lê tự việt thắng
+Red team
+Blue team
+Pentest
+Sercurity center (soc)
++hệ thống unix
+download linux
+Vmware
+Địa chỉ mac
+Nmap
+inf gathering
+Dns
+acunetix
+Burp suite
+SQL injection( cross-site scripting)
+Top 10 owas 
+sql map
+https://www.onelogin.com/learn/6-types-password-attacks
+phishing facebook(tiểu luận lấy mật khẩu)
+Brute Force Attack
+MFA
+wireless attack
+https://www.infosecinstitute.com/resources/digital-forensics/kali-linux-top-5-tools-for-digital-forensics/
+Slide(không quá 20 từ/slide), word, demo
+recomment đề tài tiểu luận
+https://unit42.paloaltonetworks.com/wireshark-workshop-videos/
+demo 5 loại hình tấn công(ko hay)
+Nmap, wazuh,duvwa
