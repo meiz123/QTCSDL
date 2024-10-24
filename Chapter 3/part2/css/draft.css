@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Responsive design */
+@media (max-width: 640px) {
+    body {
+        background-color: teal;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: purple;
+    }
+    .form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+label {
+    width: 120px; /* Độ rộng cố định cho label */
+}
+
+input {
+    flex: 1; /* Cho phép input chiếm phần còn lại của không gian */
+}
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: blue;
+    }
+    .form-group {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    label {
+        width: 120px; /* Độ rộng cố định cho label */
+    }
+    
+    input {
+        flex: 1; /* Cho phép input chiếm phần còn lại của không gian */
+    }
+}

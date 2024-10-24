@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto' ;
+    text-align: justify;
+    margin: 50px;
+}
+#sodg{color: grey;}
+#daban{color: grey;}
+.Km{
+    border: 1pt solid rgba(231, 227, 227, 0.87);
+    border-radius: 2pt;
+    background-color: rgba(231, 227, 227, 0.87);
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+}
+.Gia{
+    display: flex;
+    column-gap: 2cap;
+    align-items: center;
+}
+.Sp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Hinh1
+{display: flex;
+align-items: center;
+column-gap: 15pt;
+border-radius: 5px;
+border: solid rgb(247, 240, 240);
+
+}
+.Hinh2
+{display: flex;
+align-items: center;
+border-radius: 5px;
+border: solid rgb(247, 240, 240);
+
+}
+.mau{text-align: center;}

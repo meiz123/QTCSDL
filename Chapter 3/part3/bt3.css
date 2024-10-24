@@ -1,0 +1,157 @@
+@media screen and (min-width:768px)
+{
+
+.tieude{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    height: 40px;
+    padding: 8px 80px;
+    justify-content: space-between;
+    align-content: center;
+}
+.fa-bars{
+    display: none;
+}
+
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    list-style: none;
+    display: flex ;
+    margin-right: 30px;
+}
+li{
+    margin-left: 30px;
+    font-size: 12px;  
+    font-weight: bold;
+}
+.about,.contact{
+    color: rgb(163, 163, 163);
+}
+.about:hover,.contact:hover{
+    color: rgb(249, 247, 247);
+}
+.header{
+    text-align: center;
+    height: 30%;
+    background-color: rgb(237, 240, 240);
+    margin: 40px 80px;
+    padding: 50px 50px;
+}
+.header>h1{
+    font-size: 44px;
+}
+.header>p{
+    font-size: 20px;
+    margin-top: -15px;
+    padding: 0 50px;
+}
+.Call{
+    color:white;
+    background-color: rgb(15, 106, 243);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+}
+.main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 60px;
+    row-gap: 60px;
+    padding:0 80px;
+}
+
+.a{
+    background-color: rgb(237, 240, 240);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    padding-bottom: 10px;
+    padding: 0 50px;
+    height: 100%;
+}
+.h2{
+    color: black;
+    font-size:20px;
+    font-weight: bold;
+
+}
+.footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    height: 70px;
+    bottom: 0px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.fa-envelope{
+    color: aliceblue;
+    position: relative;
+    background-color: rgb(15, 106, 243);
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    align-content: center;
+    top: -15px;
+    font-size: 30px;
+}
+
+@media screen and (max-width:768px) {
+    .tieude{
+        background-color: black;
+        color: aliceblue;
+        padding: 8px 30px;
+    }
+    .menu{
+        display: none;
+    }
+    li{
+        margin-left: -40px;
+        margin-top: 30px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .header{
+        margin: 30px;
+    }
+    .header>h1{
+        margin-top:0 ;
+    }
+    .icon
+    {
+        display: flex;
+        align-items: first baseline;
+        justify-content: space-between;
+    }
+
+    .tieude:hover .menu{
+        display: block;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .header>h1{
+        font-size: 30px;
+    }
+    .header>p{
+        font-size: 16px;
+    }
+    .header{
+        padding: 20px 10px;
+    }
+}

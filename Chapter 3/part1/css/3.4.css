@@ -1,0 +1,17 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+p {
+    font-size: 18px;
+}
+.hinh img {
+    width: auto;
+    height: auto;
+}
+@media (max-width: 768px) {
+    .hinh img {
+        width: 400px;
+    }
+}

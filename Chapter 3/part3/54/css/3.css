@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 95%;
+    background-color: #efeded;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 2px 2px #AAA;;
+}
+.mota{
+    font-size: 13px;
+    color: grey;
+}
+
+@media only screen and (max-width: 1024px){
+    .product {
+        flex: 1 1 calc(50% - 5px);  
+    }
+}
+@media only screen and (min-width: 1024px){
+    .product {
+        flex: 1 1 calc(25% - 10px); 
+    }
+    
+}

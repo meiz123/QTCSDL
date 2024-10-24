@@ -1,0 +1,40 @@
+body{
+    padding: 20px;
+}
+.item{
+    background-color: aqua;
+    text-align: center;
+    align-content: center;
+   
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr; tương đối  
+    Grid-template-columns: repeat(3,1)fr lặp lại 3 lần*/
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(60px,auto);
+    gap: 10px 10px;
+}
+.item-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: aquamarine;
+}
+.item-2{
+    background-color: bisque;
+}
+.item-3{
+    grid-row:2/4 ;
+    height: 200px;
+}
+.item-4{
+    grid-column: 2/4;
+    background-color: coral;
+}
+.item-5{
+    background-color: rgb(104, 229, 232);
+}
+.item-6{
+    background-color: rgb(255, 127, 204);
+}
